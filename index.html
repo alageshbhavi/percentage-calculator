@@ -1,59 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Percentage Calculator</title>
-  <meta name="description" content="Fast online percentage calculator with multiple tools">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Percentage Calculator</title>
+<meta name="description" content="Online percentage calculator with multiple tools">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Percentage Calculator</h1>
-<p style="text-align:center;">Simple tools for quick percentage math</p>
-
-<div class="tool">
-  <h2>Percent of a number</h2>
-  <input id="n1" placeholder="Number">
-  <input id="p1" placeholder="Percent">
-  <button onclick="calc1()">Calculate</button>
-  <div id="r1" class="result"></div>
-</div>
-
-<div class="tool">
-  <h2>What percent is X of Y</h2>
-  <input id="x2" placeholder="X">
-  <input id="y2" placeholder="Y">
-  <button onclick="calc2()">Calculate</button>
-  <div id="r2" class="result"></div>
-</div>
-
-<div class="tool">
-  <h2>Percentage increase</h2>
-  <input id="old3" placeholder="Old value">
-  <input id="new3" placeholder="New value">
-  <button onclick="calc3()">Calculate</button>
-  <div id="r3" class="result"></div>
-</div>
-
-<div class="tool">
-  <h2>Percentage decrease</h2>
-  <input id="old4" placeholder="Old value">
-  <input id="new4" placeholder="New value">
-  <button onclick="calc4()">Calculate</button>
-  <div id="r4" class="result"></div>
-</div>
-
-
-</footer>
-
-<script src="app.js"></script>
-</body>
-  <nav>
+<nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="privacy.html">Privacy</a>
   <a href="contact.html">Contact</a>
 </nav>
 
+<h1>Percentage Calculator</h1>
+
+<section class="calc">
+  <h2>Percentage of a number</h2>
+  <input id="n1" placeholder="Number">
+  <input id="p1" placeholder="Percent">
+  <button onclick="calc1()">Calculate</button>
+  <div id="r1" class="result"></div>
+</section>
+
+<section class="calc">
+  <h2>What percent is X of Y</h2>
+  <input id="x2" placeholder="X">
+  <input id="y2" placeholder="Y">
+  <button onclick="calc2()">Calculate</button>
+  <div id="r2" class="result"></div>
+</section>
+
+<section class="calc">
+  <h2>Percentage increase</h2>
+  <input id="old3" placeholder="Old value">
+  <input id="new3" placeholder="New value">
+  <button onclick="calc3()">Calculate</button>
+  <div id="r3" class="result"></div>
+</section>
+
+<section class="calc">
+  <h2>Percentage decrease</h2>
+  <input id="old4" placeholder="Old value">
+  <input id="new4" placeholder="New value">
+  <button onclick="calc4()">Calculate</button>
+  <div id="r4" class="result"></div>
+</section>
+
+<h2>FAQ</h2>
+<div class="faq">
+  <p><strong>What is a percentage?</strong></p>
+  <p>A percentage is a number out of 100.</p>
+
+  <p><strong>How do I calculate a percentage?</strong></p>
+  <p>Divide the part by the whole and multiply by 100.</p>
+
+  <p><strong>What is percentage increase?</strong></p>
+  <p>It shows how much a value grows.</p>
+
+  <p><strong>What is percentage decrease?</strong></p>
+  <p>It shows how much a value drops.</p>
+</div>
+
+<footer>
+<p>© 2026 Percentage Calculator</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
 </html>
