@@ -5,6 +5,17 @@ body {
   padding: 20px;
   background: #f5f7fb;
 }
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 h1 {
   text-align: center;
