@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="description" content="Fast online percentage calculator with multiple tools">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta charset="UTF-8">
   <title>Percentage Calculator</title>
-  <meta name="description" content="Online percentage calculator with multiple tools">
+  <meta name="description" content="Fast online percentage calculator with multiple tools">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>Percentage Calculator</h1>
-<p>Fast and simple percentage tools.</p>
+<p style="text-align:center;">Simple tools for quick percentage math</p>
 
 <div class="tool">
   <h2>Percent of a number</h2>
   <input id="n1" placeholder="Number">
   <input id="p1" placeholder="Percent">
   <button onclick="calc1()">Calculate</button>
-  <div id="r1"></div>
+  <div id="r1" class="result"></div>
 </div>
 
 <div class="tool">
@@ -26,7 +25,7 @@
   <input id="x2" placeholder="X">
   <input id="y2" placeholder="Y">
   <button onclick="calc2()">Calculate</button>
-  <div id="r2"></div>
+  <div id="r2" class="result"></div>
 </div>
 
 <div class="tool">
@@ -34,7 +33,7 @@
   <input id="old3" placeholder="Old value">
   <input id="new3" placeholder="New value">
   <button onclick="calc3()">Calculate</button>
-  <div id="r3"></div>
+  <div id="r3" class="result"></div>
 </div>
 
 <div class="tool">
@@ -42,7 +41,7 @@
   <input id="old4" placeholder="Old value">
   <input id="new4" placeholder="New value">
   <button onclick="calc4()">Calculate</button>
-  <div id="r4"></div>
+  <div id="r4" class="result"></div>
 </div>
 
 <footer>
@@ -52,26 +51,3 @@
 <script src="app.js"></script>
 </body>
 </html>
-<div class="tool">
-  <h2>What percent is X of Y</h2>
-  <input id="x2" placeholder="X">
-  <input id="y2" placeholder="Y">
-  <button onclick="calc2()">Calculate</button>
-  <div id="r2"></div>
-</div>
-
-<div class="tool">
-  <h2>Percentage increase</h2>
-  <input id="old3" placeholder="Old value">
-  <input id="new3" placeholder="New value">
-  <button onclick="calc3()">Calculate</button>
-  <div id="r3"></div>
-</div>
-
-<div class="tool">
-  <h2>Percentage decrease</h2>
-  <input id="old4" placeholder="Old value">
-  <input id="new4" placeholder="New value">
-  <button onclick="calc4()">Calculate</button>
-  <div id="r4"></div>
-</div>
